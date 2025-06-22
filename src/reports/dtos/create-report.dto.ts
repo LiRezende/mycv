@@ -32,7 +32,7 @@ export class CreateReportDto {
     lat: number;
 
     @IsNumber()
-     Min(0)
+    @Min(0)
     @Max(100000)
     price: number;
 }
